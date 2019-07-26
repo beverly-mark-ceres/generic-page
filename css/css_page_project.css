@@ -53,14 +53,15 @@ li a {
     grid-area: 2/ 1/ 11/ 2;
     background: lightblue;
 }
+.text{
+   float: left;
+}
 .heading1 {
     grid-area: 2/ 2/ span 2/ span 1;
     background: lightgoldenrodyellow;
 }
-.ad1 {
-    grid-area: 2/ 3/ span 1/ span 1;
-    background: lightpink;
-}
+
+
 .heading2 {
     grid-area: 4 /2 / span 2/ span 1 ;
     background: red;
@@ -69,29 +70,78 @@ li a {
     grid-area: 6 / 2 / span 2 / span 1;
     background: lightgreen;
 
+
 }
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 10px auto;
+}
+.ad1 {
+     grid-area: 2/ 3/ span 1/ span 1;
+     background: lightpink;
+     height: 75px;
+     width: 300px;
+     border: black 1px dotted;
+
+ }
 .ad2 {
     grid-area: -9 / 3 / span 1 / span 1;
     background: lightblue;
+    height: 100px;
+    width: 300px;
+    border: black 1px dotted;
+    margin-top: 2.5px;
+    margin-bottom: 40px;
+
+}
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 10px auto;
 }
 .ad3 {
     grid-area: -8 / 3 / span 1 / span 1;
     background: lightyellow;
+    height: 75px;
+    width: 300px;
+    border: black 1px dotted;
+
 
 }
 .ad4 {
     grid-area: -7 / 3 / span 1 / span 1;
     background: blue;
-
+    height: 100px;
+    width: 300px;
+    border: black 1px dotted;
+    margin-top: 2.5px;
+    margin-bottom: 40px;
+}
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 10px auto;
 }
 .ad5 {
     grid-area: -6 / 3 / span 1 / span 1;
     background: lightyellow;
+    height: 75px;
+    width: 300px;
+    border: black 1px dotted;
 
 }
 .ad6 {
     grid-area: -5 / 3 / span 1 / span 1;
     background: pink;
+    height: 100px;
+    width: 300px;
+    border: black 1px dotted;
+    margin-top: 2.5px;
 }
 .number ul {
     display: flex;
@@ -103,10 +153,12 @@ li a {
 }
 .footer {
     grid-area: 9 / 2 / span 1 / span 2;
-    background: green;
+    background: gray;
+    color: white;
 }
 .link {
     grid-area: 10 / 2 / span 1 / span 2;
-    background: darkblue;
+    background: black;
+    color: white;
 
 }
