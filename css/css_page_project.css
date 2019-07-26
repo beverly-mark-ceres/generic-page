@@ -27,5 +27,50 @@ main{
 }
 .ad1 {
     grid-area: 2/ 3/ span 1/ span 1;
-    background-color: lightpink;
+    background: lightpink;
+}
+.heading2 {
+    grid-area: 4 /2 / span 2/ span 1 ;
+    background: red;
+}
+.heading3 {
+    grid-area: 6 / 2 / span 2 / span 1;
+    background: lightgreen;
+
+}
+.ad2 {
+    grid-area: -9 / 3 / span 1 / span 1;
+    background: lightblue;
+}
+.ad3 {
+    grid-area: -8 / 3 / span 1 / span 1;
+    background: lightyellow;
+
+}
+.ad4 {
+    grid-area: -7 / 3 / span 1 / span 1;
+    background: blue;
+
+}
+.ad5 {
+    grid-area: -6 / 3 / span 1 / span 1;
+    background: lightyellow;
+
+}
+.ad6 {
+    grid-area: -5 / 3 / span 1 / span 1;
+    background: pink;
+}
+.number {
+    grid-area: 8 /2 / span 1 / span 2;
+    background: purple;
+}
+.footer {
+    grid-area: 9 / 2 / span 1 / span 2;
+    background: green;
+}
+.link {
+    grid-area: 10 / 2 / span 1 / span 2;
+    background: darkblue;
+
 }
