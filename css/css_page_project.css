@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    text-align: center;
+
 
 }
 main {
@@ -14,29 +14,31 @@ main {
     width: 100%;
     display:grid;
     grid-template-columns: 15% 55% 30%;
-    grid-template-rows: 40px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 40px;
+    grid-template-rows: 40px 1fr 1fr 1fr 1fr 1fr 1fr 80px 80px 40px;
 }
 
 .nav ul {
     display: flex;
     list-style: none;
-
-    padding: 0;
-    margin: 0;
+    align-items: center;
+    padding-left: .8em;
 
 
 }
 .navul li a {
     padding-right: .8em;
     color: white;
-    align-self: center;
+
+
 }
 .navul li a:hover {
     background: lightgray;
+    height: 100%;
 }
 
 /* classes are the sections*/
 .nav {
+    margin: 0;
     display: flex;
     grid-area: 1/ 1/ 2/ 4;
     background: black;
@@ -45,20 +47,27 @@ main {
     display: flex;
     list-style: none;
     flex-direction: column;
+
 }
 li a {
     text-decoration: none;
 }
+.menu ul {
+    padding: .8em;
+}
 .menu {
     grid-area: 2/ 1/ 11/ 2;
     background: lightblue;
+
 }
-.text{
-   float: left;
+.text {
+    margin: 0 .5em;
 }
+
 .heading1 {
     grid-area: 2/ 2/ span 2/ span 1;
     background: lightgoldenrodyellow;
+
 }
 
 
@@ -147,16 +156,29 @@ li a {
     display: flex;
     list-style: none;
 }
+.number ul li {
+    margin: 10px;
+}
 .number {
+    display: flex;
+    justify-content: center;
     grid-area: 8 /2 / span 1 / span 2;
     background: purple;
+
+
 }
 .footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
     grid-area: 9 / 2 / span 1 / span 2;
     background: gray;
     color: white;
 }
 .link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
     grid-area: 10 / 2 / span 1 / span 2;
     background: black;
     color: white;
