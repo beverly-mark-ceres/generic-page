@@ -5,72 +5,81 @@
 
 body {
     margin: 0;
+    font-family: "Microsoft Sans Serif";
 
 
 }
 main {
 
-    height: 200vh;
+    height: 180vh;
     width: 100%;
     display:grid;
-    grid-template-columns: 15% 55% 30%;
+    grid-template-columns: 15% 60% 25%;
     grid-template-rows: 40px 1fr 1fr 1fr 1fr 1fr 1fr 80px 80px 40px;
 }
-
+/*control nav*/
 .nav ul {
     display: flex;
     list-style: none;
     align-items: center;
-    padding-left: .8em;
+    padding-left: 0;
 
 
 }
 .navul li a {
-    padding-right: .8em;
+
     color: white;
-
-
 }
 .navul li a:hover {
     background: lightgray;
-    height: 100%;
+
+
 }
 
-/* classes are the sections*/
 .nav {
     margin: 0;
     display: flex;
     grid-area: 1/ 1/ 2/ 4;
     background: black;
 }
+li a {
+    text-decoration: none;
+    padding: 14px 14px 12px 12px;
+}
 .menu ul {
     display: flex;
     list-style: none;
     flex-direction: column;
+    padding: 0;
 
 }
-li a {
-    text-decoration: none;
-}
-.menu ul {
-    padding: .8em;
+/*control menu on side*/
+/*first li or the word Menu*/
+.menu li:nth-child(1) {
+    font-weight: bold;
+    padding-bottom: 1em;
 }
 .menu {
     grid-area: 2/ 1/ 11/ 2;
     background: lightblue;
-
+    margin: 0;
 }
-.text {
+.link {
+    padding: 8px 0;
+}
+.headings {
     margin: 0 .5em;
 }
-
+/*control all the headings*/
+h4 {
+    font-size: 30px;
+    font-weight: light;
+    margin-bottom: 20px;
+}
 .heading1 {
     grid-area: 2/ 2/ span 2/ span 1;
     background: lightgoldenrodyellow;
-
 }
-
-
 .heading2 {
     grid-area: 4 /2 / span 2/ span 1 ;
     background: red;
@@ -78,86 +87,98 @@ li a {
 .heading3 {
     grid-area: 6 / 2 / span 2 / span 1;
     background: lightgreen;
-
-
 }
-
+/*control the ads*/
 .box1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 10px 10px auto;
+    margin: 28px 10px 10px auto;
 }
 .ad1 {
      grid-area: 2/ 3/ span 1/ span 1;
      background: lightpink;
-     height: 75px;
-     width: 300px;
+     height: 90px;
+     width: 325px;
      border: black 1px dotted;
 
  }
 .ad2 {
     grid-area: -9 / 3 / span 1 / span 1;
     background: lightblue;
-    height: 100px;
-    width: 300px;
+    height: 180px;
+    width: 325px;
     border: black 1px dotted;
-    margin-top: 2.5px;
-    margin-bottom: 40px;
+    margin-top: -70px;
+
 
 }
 .box2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 10px 10px auto;
+    margin: 30px 10px 10px auto;
 }
 .ad3 {
     grid-area: -8 / 3 / span 1 / span 1;
     background: lightyellow;
-    height: 75px;
-    width: 300px;
+    height: 90px;
+    width: 325px;
     border: black 1px dotted;
+
 
 
 }
 .ad4 {
     grid-area: -7 / 3 / span 1 / span 1;
     background: blue;
-    height: 100px;
-    width: 300px;
+    height: 180px;
+    width: 325px;
     border: black 1px dotted;
-    margin-top: 2.5px;
-    margin-bottom: 40px;
+    margin-top: -70px;
+
+
 }
 .box3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 10px 10px auto;
+    margin: 30px 10px 10px auto;
 }
 .ad5 {
     grid-area: -6 / 3 / span 1 / span 1;
     background: lightyellow;
-    height: 75px;
-    width: 300px;
+    height: 90px;
+    width: 325px;
     border: black 1px dotted;
+
 
 }
 .ad6 {
     grid-area: -5 / 3 / span 1 / span 1;
     background: pink;
-    height: 100px;
-    width: 300px;
+    height: 180px;
+    width: 325px;
     border: black 1px dotted;
-    margin-top: 2.5px;
+    margin-top: -70px;
+
 }
+/*control numbers at bottom*/
 .number ul {
     display: flex;
     list-style: none;
+    margin: auto;
+    align-items: center;
+    padding: 0;
 }
-.number ul li {
-    margin: 10px;
+
+/*a and i tag for numbers */
+.num {
+    color: black;
+    padding: 8px 18.8px;
+}
+.num:hover{
+    background: black;
 }
 .number {
     display: flex;
@@ -167,6 +188,7 @@ li a {
 
 
 }
+/*controls footer*/
 .footer {
     display: flex;
     align-items: center;
@@ -175,7 +197,8 @@ li a {
     background: gray;
     color: white;
 }
-.link {
+/*controls bottom bar*/
+.bar {
     display: flex;
     align-items: center;
     padding: 10px;
