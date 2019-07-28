@@ -61,7 +61,7 @@ li a {
 }
 .menu {
     grid-area: 2/ 1/ 11/ 2;
-    background: lightblue;
+    background: lightgray;
     margin: 0;
 }
 .link {
@@ -78,15 +78,15 @@ h4 {
 }
 .heading1 {
     grid-area: 2/ 2/ span 2/ span 1;
-    background: lightgoldenrodyellow;
+    background: white;
 }
 .heading2 {
     grid-area: 4 /2 / span 2/ span 1 ;
-    background: red;
+    background: white;
 }
 .heading3 {
     grid-area: 6 / 2 / span 2 / span 1;
-    background: lightgreen;
+    background: white;
 }
 /*control the ads*/
 .box1 {
@@ -97,7 +97,7 @@ h4 {
 }
 .ad1 {
      grid-area: 2/ 3/ span 1/ span 1;
-     background: lightpink;
+     background: white;
      height: 90px;
      width: 325px;
      border: black 1px dotted;
@@ -105,7 +105,7 @@ h4 {
  }
 .ad2 {
     grid-area: -9 / 3 / span 1 / span 1;
-    background: lightblue;
+    background: white;
     height: 180px;
     width: 325px;
     border: black 1px dotted;
@@ -121,7 +121,7 @@ h4 {
 }
 .ad3 {
     grid-area: -8 / 3 / span 1 / span 1;
-    background: lightyellow;
+    background: white;
     height: 90px;
     width: 325px;
     border: black 1px dotted;
@@ -131,7 +131,7 @@ h4 {
 }
 .ad4 {
     grid-area: -7 / 3 / span 1 / span 1;
-    background: blue;
+    background: white;
     height: 180px;
     width: 325px;
     border: black 1px dotted;
@@ -147,7 +147,7 @@ h4 {
 }
 .ad5 {
     grid-area: -6 / 3 / span 1 / span 1;
-    background: lightyellow;
+    background: white;
     height: 90px;
     width: 325px;
     border: black 1px dotted;
@@ -156,7 +156,7 @@ h4 {
 }
 .ad6 {
     grid-area: -5 / 3 / span 1 / span 1;
-    background: pink;
+    background: white;
     height: 180px;
     width: 325px;
     border: black 1px dotted;
@@ -179,12 +179,13 @@ h4 {
 }
 .num:hover{
     background: black;
+    color: white;
 }
 .number {
     display: flex;
     justify-content: center;
     grid-area: 8 /2 / span 1 / span 2;
-    background: purple;
+    background: white;
 
 
 }
