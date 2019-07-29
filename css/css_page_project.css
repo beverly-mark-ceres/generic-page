@@ -5,6 +5,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     font-family: "Microsoft Sans Serif";
 
 
@@ -15,7 +16,7 @@ main {
     width: 100%;
     display:grid;
     grid-template-columns: 15% 60% 25%;
-    grid-template-rows: 40px 1fr 1fr 1fr 1fr 1fr 1fr 80px 80px 40px;
+    grid-template-rows: 40px 1fr 1fr 1fr 1fr 1fr 1fr 80px 80px 50px;
 }
 /*control nav*/
 .nav ul {
@@ -29,22 +30,30 @@ main {
 .navul li a {
 
     color: white;
+    text-decoration: none;
+    padding: 14px 14px 15px 12px;
 }
 .navul li a:hover {
-    background: lightgray;
+    background: white;
+    color: black;
 
 
 }
-
 .nav {
     margin: 0;
     display: flex;
     grid-area: 1/ 1/ 2/ 4;
     background: black;
 }
-li a {
+
+
+.menu li a {
     text-decoration: none;
-    padding: 14px 14px 12px 12px;
+    margin-bottom: auto;
+    color: black;
+    padding: 5px 177px 5px 10px;
+
+
 }
 .menu ul {
     display: flex;
@@ -52,28 +61,38 @@ li a {
     flex-direction: column;
     padding: 0;
 
+
 }
 /*control menu on side*/
 /*first li or the word Menu*/
 .menu li:nth-child(1) {
     font-weight: bold;
     padding-bottom: 1em;
+    margin: 10px;
+
 }
 .menu {
     grid-area: 2/ 1/ 11/ 2;
     background: lightgray;
     margin: 0;
+    display: block;
+
 }
-.link {
-    padding: 8px 0;
+.menu li a:hover {
+    background: black;
+    color: white;
 }
+.link  {
+    margin: 10px 0;
+}
+
 .headings {
     margin: 0 .5em;
 }
 /*control all the headings*/
 h4 {
     font-size: 30px;
-    color: gray;
+    color: #609085;
     margin-bottom: 20px;
 }
 .heading1 {
@@ -136,6 +155,7 @@ h4 {
     width: 325px;
     border: black 1px dotted;
     margin-top: -70px;
+
 
 
 }
@@ -206,7 +226,9 @@ h4 {
     grid-area: 10 / 2 / span 1 / span 2;
     background: black;
     color: white;
+
 }
 .bar a {
-
+    margin: 10px;
+    color: white;
 }
