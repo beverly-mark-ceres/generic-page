@@ -73,7 +73,7 @@ li a {
 /*control all the headings*/
 h4 {
     font-size: 30px;
-    font-weight: light;
+    color: gray;
     margin-bottom: 20px;
 }
 .heading1 {
@@ -206,5 +206,7 @@ h4 {
     grid-area: 10 / 2 / span 1 / span 2;
     background: black;
     color: white;
+}
+.bar a {
 
 }
